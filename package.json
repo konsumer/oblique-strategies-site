@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "publish": "surge oblique-strategies.surge.sh dist",
+    "publish": "surge dist oblique.surge.sh",
     "prepublish": "npm run build"
   },
   "keywords": [],
