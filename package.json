@@ -1,0 +1,23 @@
+{
+  "name": "oblique-strategies-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "publish": "surge oblique-strategies.surge.sh dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "surge": "^0.21.3"
+  },
+  "dependencies": {
+    "@nessiesnippets/oblique-strategies": "git+https://github.com/konsumer/oblique-strategies.git",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
