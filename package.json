@@ -5,8 +5,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "publish": "surge dist oblique.surge.sh",
-    "prepublish": "npm run build"
+    "deploy": "surge dist oblique.surge.sh",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
