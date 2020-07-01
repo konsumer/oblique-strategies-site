@@ -19,5 +19,6 @@ body, .app {
 	align-items: center;
 	justify-content: center;
 	user-select: none;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
